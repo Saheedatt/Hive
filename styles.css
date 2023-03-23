@@ -324,7 +324,9 @@ nav span{
 .box {
     width: 264px;
     height: 217px;
-    background: #D9D9D9;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f2f2f2;
     margin: 10px;
     padding: 15px;
     display: flex;

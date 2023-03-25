@@ -20,24 +20,11 @@ html {
     top: -16px;
     width:100%;
     z-index: 1;
-    -webkit-backface-visibility: hidden;
     /* PSEUDO ELEMENTS to create drop-shadow */
     /* SHADOW */
     /* COVER */
   }
-  .header::before,
-  .header::after {
-    content: "";
-    display: block;
-    height: 16px;
-    /* make pseudo elements sticky as well */
-    position: sticky;
-  }
-  .header::before {
-    top: 48px;
-    /* shadow is at bottom of element, so at 48 + 16 = 64px */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-  }
+  
   
   .header .nav-container {
     /* height: 64px; */
